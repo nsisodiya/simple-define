@@ -1,12 +1,3 @@
-simple-define
-=============
-
-Simple define.js static module loading
-
-Demo
-=============
-
-```javascript
 define("addModule", function(){
 	return function(a, b){
 		return a+b;
@@ -16,4 +7,3 @@ define("addModule", function(){
 define("main", function(addModule){
 	window.alert("3+4=" + addModule(3,4));
 })
-```
