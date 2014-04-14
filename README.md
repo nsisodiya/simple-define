@@ -1,7 +1,7 @@
 simple-define
 =============
 
-Simple define.js static module loading
+Simple define.js for static module loading with dependency injection
 
 Demo
 =============
