@@ -17,3 +17,4 @@ define("main", function(addModule){
 	window.alert("3+4=" + addModule(3,4));
 })
 ```
+url - http://nsisodiya.github.io/simple-define/
