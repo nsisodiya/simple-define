@@ -1,0 +1,21 @@
+{
+  "name": "simple-define",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nsisodiya/simple-define",
+  "authors": [
+    "Narendra <narendra@narendrasisodiya.com>"
+  ],
+  "description": "Simple way to define static modules in javacript",
+  "main": "define.js",
+  "keywords": [
+    "define"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
