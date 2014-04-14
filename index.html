@@ -4,9 +4,20 @@
     <meta charset='utf-8'>
 	<title>nsisodiya/simple-define</title>
 	<script type="text/javascript" src="./define.js"></script>
-	<script type="text/javascript" src="./main.js"></script>
  </head>
   <body>
+<p>We are running this Code</p>
+<pre>
+define("addModule", function(){
+	return function(a, b){
+		return a+b;
+	}
+});
 
+define("main", function(addModule){
+	window.alert("3+4=" + addModule(3,4));
+})
+</pre>
   </body>
 </html>
+<script type="text/javascript" src="./main.js"></script>
